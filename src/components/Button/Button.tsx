@@ -8,13 +8,13 @@ import { cn } from '../../../lib/utils';
   children: React.ReactNode;
 }
 
-const base = 'inline-flex items-center justify-center whitespace-nowrap rounded-md active:translate-y-[1px] text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50'
+const base = 'inline-flex items-center justify-center whitespace-nowrap rounded-md active:translate-y-[1px] text-sm font-semibold ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50'
 
 	const variants = { 
-		default: 'bg-[var(--orange-color)] text-[var(--background-color)]',
+		default: 'bg-[var(--orange-color)] text-[var(--background-color)] ',
 		primary: 'bg-[var(--orange-color)] text-[var(--background-color)] hover:bg-[var(--orange-color)]/90',
-		outline: 'bg-transparent border border-[var(--orange-color)] hover:bg-[var(--orange-color)] hover:text-[var(--background-color)]' ,
-		secondary: 'bg-transparent border border-[var(--border-color)]'
+		outline: 'bg-transparent border border-[var(--orange-color)] text-[var(--orange-color)] hover:bg-[var(--orange-color)] hover:text-[var(--background-color)] font-semibold' ,
+		secondary: 'bg-transparent border border-[var(--border-color)] text-[var(--secendary-text-color)]'
 	} as const
 
 	const sizes = { 
