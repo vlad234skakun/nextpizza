@@ -8,7 +8,7 @@ export const categories: ICategories[] = [
 	{
 		id: 1,
 		name: 'Все',
-		href: '/all'
+		href: '/'
 	},
 	{
 		id: 2,
