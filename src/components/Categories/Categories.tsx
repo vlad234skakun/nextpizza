@@ -1,8 +1,8 @@
 "use client"
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { categories } from '../../../lib/categories'
-import { cn } from '../../../lib/utils'
+import { categories } from '../../lib/categories'
+import { cn } from '../../lib/utils'
 
 const Categories = () => {
 const pathname = usePathname()
@@ -27,8 +27,6 @@ console.log(pathname)
 			</ul>
 		</div>
 		</div>
-		
-		
 	)
 }
 

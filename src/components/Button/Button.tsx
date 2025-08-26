@@ -1,5 +1,5 @@
-import React, { FC } from 'react'
-import { cn } from '../../../lib/utils'
+import React, { FC } from 'react';
+import { cn } from '../../lib/utils';
 
 	interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> { 
 	variant?: keyof typeof variants;
