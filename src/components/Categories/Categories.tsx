@@ -10,7 +10,7 @@ console.log(pathname)
 
 	const element = categories.map((item) => (
 		<li key={item.id}  >
-			<Link href={item.href} className={cn('py-[16px] px-[10px] rounded-2xl transition-all duration-300',
+			<Link href={item.href} className={cn('py-[16px] px-[30px] rounded-2xl transition-all duration-300',
       pathname === item.href ? "bg-white text-[var(--orange-color)] shadow" : "",
       'hover:shadow hover:bg-white')}>
 			{item.name}
@@ -20,9 +20,9 @@ console.log(pathname)
 
 	return ( 
 		<div className='my-[40px] mx-[64px]' >
-		<h1 className='font-extrabold' >Все Пицци</h1>
-		<div className='flex bg-[var(--gray-color)] py-[19px] px-[29px]'>
-			<ul className='flex gap-[20px]' >
+		<h1 className='font-extrabold text-4xl mb-[20px]'>Все Пицци</h1>
+		<div className='flex bg-[var(--gray-color)] py-[19px] px-[29px] w-fit rounded-[15px]'>
+			<ul className='flex gap-[15px] ' >
 				{element}
 			</ul>
 		</div>

@@ -23,14 +23,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Providers>
-        <body className={nunito.variable}>
+      <body className={nunito.variable}>
+      <Providers>    
         <Header />
         <Categories />
         <main>{children}</main>
-      </body>
       </Providers>
-      
+      </body>
     </html>
   );
 }
